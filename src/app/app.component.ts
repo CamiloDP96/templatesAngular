@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularTemplate';
+  visible = true;
+
+  mostrar() {
+    this.visible = !this.visible;
+}
 }
